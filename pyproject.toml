@@ -1,15 +1,17 @@
 [project]
-name = "jigsaw"
+name = "library"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "claire",email = "claire@compusec.co.uk"}
+    {name = "claire"}
 ]
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-]
 
+dependencies = [
+    "flask >= 3.1.2",
+    "mysql-connector-python (>=9.4.0,<10.0.0)"
+]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
